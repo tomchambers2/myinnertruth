@@ -1,0 +1,71 @@
+@import url(http://fonts.googleapis.com/css?family=Calligraffitti);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro); //remove when deploying
+
+body {
+	background: 
+		linear-gradient(
+			rgba(200,10,10,0.1),
+			rgba(200,10,10,0.1)
+		),
+		url(fresh_snow.png);
+	margin: 0;
+
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#header {
+	margin: 0;
+	text-align: center;
+	background: #fff;
+	a {
+		color: #000;
+		text-decoration: none;
+		&:visited {
+			color: #000;
+		}
+	}
+	ul {
+		text-align: center;
+		padding: 0;
+	}
+	li {
+		list-style: none;
+		display: inline;
+		padding: 12px;
+	}
+	border-bottom: 5px solid #CABABA;
+}
+
+#header h1 {
+	margin: 0;
+	padding: 20px;
+	font-family: 'Calligraffitti';
+}
+
+#page {
+	width: 60%;
+	margin: 50px auto 50px auto;
+	padding: 5%;
+	//border: 3px solid #CAA2A2;
+	background: #fff;
+}
+
+#body_content {
+	width: 100%;
+}
+
+#body {
+	width: 60%;
+	float: left;
+}
+
+#side_body {
+	border-left: 1px solid #CABABA;
+	float: right;
+	width: 35%;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+}
